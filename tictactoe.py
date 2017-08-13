@@ -31,8 +31,8 @@ def displayCanvas(canvas, n):
         print i+1, "  ", temp, "\n"
 
 # this is a multiplayer version of tic tac toe
-
-n = 3 # you can set the size of the canvas
+print "The canvas will be a square whose side length you can set"
+n = raw_input("Enter the dimension of the canvas you want to play on") # you can set the size of the canvas
 canvas = 2*n*ones((n, n)) # this is the canvas that will be displayed
 seals = ['x', 'o']
 
